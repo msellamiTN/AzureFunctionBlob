@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "fitecdata",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "fitecdata/{name}",
+      "connection": "fitecazureu6lehu_STORAGE"
+    }
+  ]
+}
